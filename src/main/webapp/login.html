@@ -19,6 +19,7 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 320px;
         }
         .form-group {
             margin-bottom: 15px;
@@ -42,9 +43,36 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            margin-bottom: 10px;
         }
         button:hover {
             background-color: #0056b3;
+        }
+        .signup-link {
+            text-align: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+        .signup-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+        .social-login {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .social-button {
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+            margin-bottom: 8px;
+        }
+        .social-button:hover {
+            background-color: #e9ecef;
         }
     </style>
 </head>
@@ -62,6 +90,15 @@
             </div>
             <button type="submit">Login</button>
         </form>
+        
+        <div class="social-login">
+            <button type="button" class="social-button">Sign in with Google</button>
+            <button type="button" class="social-button">Sign in with GitHub</button>
+        </div>
+        
+        <div class="signup-link">
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
     </div>
 </body>
 </html>
