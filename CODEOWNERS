@@ -1,0 +1,5 @@
+# This file defines code owners for different parts of the repository
+# For more information, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Webapp directory owner
+/src/main/webapp/** @nvasude
